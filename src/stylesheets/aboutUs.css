@@ -1,0 +1,19 @@
+.about-us{
+ padding: 1em 8em;   
+}
+.about-us h2{
+    font-size: 2rem;
+    text-align: left;
+}
+.about-us p{
+    color: gray;
+    text-align: justify;
+    font-size: 1.1rem;
+
+    line-height: 1.2;
+}
+@media (max-width:991px) {
+    .about-us{
+        padding: 1em;
+    }
+}

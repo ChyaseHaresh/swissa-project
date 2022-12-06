@@ -1,0 +1,55 @@
+/*------------------------------------ Parallax ------------------------------------*/
+.parallax {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/parallax.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    min-height: 500px;
+    place-items: center;
+}
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.stats-box {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 7px 29px 0 hsl(240deg 5% 41% / 20%);
+    position: relative;
+    top: -70px;
+    width: 85%;
+    margin: auto;
+}
+.py-5 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.fancy-font {
+    color: #da5252;
+    font-family: Parisienne;
+    font-size: 3rem;
+    text-align: center;
+}
+.parallax-title {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 700;
+}
+.package-num {
+    counter-set: num var(--num);
+    transition: --num 3s;
+}
+.all-stats{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (max-width:1000px) {
+    .parallax {
+        width: 100%;
+        align-content: center;
+    } 
+  }
+

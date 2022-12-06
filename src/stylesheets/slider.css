@@ -1,0 +1,69 @@
+
+.carousel-wrap {
+    width: 75%;
+    position: relative;
+    z-index: 1;
+    top:-30px;
+    margin: auto;
+}
+
+
+.carousel-item{
+    width: 14rem !important;
+    height: 15rem;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    /* width: 25%; */
+}
+.carousel-item .icon-wrap{
+    background-color: #f39292;
+    border-radius: 50%;
+    padding: 2.5em;
+    margin:1em auto;
+    width: 15%;
+}
+.carousel-item:hover .icon-wrap{
+    background-color: #da5252;
+    cursor: pointer;
+}
+.carousel-item .icon-wrap i{
+    font-size: 3rem;
+    color: white;
+}
+
+.carousel-item span{
+    font-size: 1.4em;
+    color: #da5252;
+    padding: 1.5em;
+}
+ /* the slides */
+ .slick-slide {
+    margin: 0 .01%;
+}
+button.slick-arrow.slick-prev{
+    background-color: rgba(133, 130, 130, 0.774);
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: -1%;
+  }
+  button.slick-arrow.slick-next{
+    background-color: rgba(133, 130, 130, 0.774);
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    right: -1%;
+  }
+  .slick-list{
+    margin-bottom:-31% !important;
+  }
+  @media (max-width:768px) {
+    .carousel-wrap{
+        top: 80px;
+        width: 100%;
+        z-index: 0;
+    }
+  }

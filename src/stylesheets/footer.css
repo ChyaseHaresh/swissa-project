@@ -1,0 +1,147 @@
+
+/*--------------------------------------- Footer -----------------------------------*/
+.footer {
+    background-color: #313040;
+    color: #a9a8b5;
+}
+.pt-5 {
+    padding-top: 3rem;
+}
+.footer-container{
+    width: 85%;
+    margin: auto;
+    text-align: left;
+}
+.footer-rows{
+    display: flex;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* margin: auto; */
+}
+.px-3 {
+    padding-right: 3em;
+    padding-left: 2em;
+}
+.footer hr {
+    background-color: #a9a8b5;
+    height: 1px;
+    margin-top: 1em;
+    opacity: .5;
+}
+.mb-3 {
+    margin-top: 1em;
+    margin-bottom: 1.1em;
+}
+.text-white {
+    color: #fff!important;
+}
+
+.contact-details i{
+    color: #d65050;
+    padding-right: .5em;
+    font-size: 1.3rem;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 3em;
+}
+.footer-heading {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.quick-links ul{
+    padding-left: 0;
+    list-style: none;
+    margin-top: 1em;
+}
+
+.footer ul li {
+    cursor: pointer;
+    margin: 1.1em 0;
+}
+
+.footer ul li a {
+    color: #a9a8b5;
+    text-decoration: none;
+}
+.col{
+ width: 29%;   
+ font-size: 1.1rem;
+}
+.copy-right-wrapper {
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    display: flex;
+    width: 94%;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+.scroll-top-container {
+    border-top-left-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d65050;
+}
+.scroll-top-container i {
+    font-size: 30px;
+    color: #fff;
+}
+.social-media{
+    display: flex;
+    padding: 0 1.5em;
+}
+.search-container {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 0.4em;
+    text-decoration: none;
+}
+.search-container i{
+    font-size: 1,5rem;
+    margin: auto;
+}
+
+.copyright-text{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    text-align: left;
+    margin-top: 0.6em;
+    margin-bottom: 1em;
+    padding-right: 2EM;
+}
+.copyright-text p{
+    margin-bottom: 0;
+}
+.copyright-text a{
+    text-decoration: none;
+    color: #d65050;
+font-weight: bold;
+}
+
+@media (max-width:1000px) {
+    .footer-container{
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+    .footer-rows{
+        flex-direction: column;
+        
+        /* flex-wrap: wrap; */
+        /* margin: auto; */
+    }
+    .col{
+        width: 86%;
+    }
+  }
